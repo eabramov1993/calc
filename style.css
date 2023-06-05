@@ -79,3 +79,11 @@ white #fdfdfd
 .btn.bg-orange {
     background: #ff9501;
 }
+
+@media screen {
+    @media screen and (max-width:779px) {
+        .btn {
+           cursor: none;
+        }
+    }
+}
