@@ -27,6 +27,7 @@ white #fdfdfd
     align-items: end;
     margin-bottom: 22px;
 }
+
 .calc-screen p {
     text-align: right;
     font-size: 4rem;
@@ -80,10 +81,8 @@ white #fdfdfd
     background: #ff9501;
 }
 
-@media screen {
-    @media screen and (max-width:779px) {
-        .btn {
-           cursor: none;
-        }
+@media only screen and (max-width:779px) {
+    .btn {
+        cursor: none;
     }
 }
